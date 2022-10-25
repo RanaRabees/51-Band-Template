@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Band Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+            width: 100vw;
+            height: 100vh;
+            text-align: center; 
+            font-style: italic;
+            font-weight: bold;           
+        }
+
+        .mySlides {
+            display: none
+        }
+        .navbar{
+            color: blueviolet;
+            background-color: cadetblue;
+        }
+        a{
+            color: blueviolet;
+            text-align: center;
+            
+        }
+        a:hover{
+            color: brown;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .slidertext{
+            color: brown;
+            font-size: 20px;
+        }
+        .slidertext:hover{
+            color: cadetblue;
+            font-size: 25px;
+            text-transform: uppercase;
+        }
+        .slidertitle{
+            color: green
+
+        }
+        .slidertitle:hover{
+            color: greenyellow;
+            font-size: 25px;
+            text-transform: uppercase;
+        }
+        #love{
+            font-size: 20px;
+            font-weight: bold;
+            color: blueviolet;
+        }
+        #loveetxt{
+            font-size: 10px;
+            color: burlywood;
+        }
+        #loveetxt:hover{
+            font-size: 15px;
+            color: palevioletred;
+        }
+        #tour{
+            font-size: 20px;
+            font-weight: bold;
+            color: blueviolet;
+        }
+        #remember{
+            font-size: 10px;
+            color: burlywood;
+        }
+        #remember:hover{
+            font-size: 15px;
+            color: palevioletred;
+        }
+        .ranatext{
+            color: palevioletred;
+        }
+        .ranatext:hover{
+            color: aqua;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #month{
+            color: cyan;
+        }
+        #month:hover{
+            color: blueviolet;
+        }
+        #sold{
+            color: yellowgreen;
+        }
+        #sold:hover{
+            color: brown;
+        }
+        .city{
+            color:cornflowerblue
+        }
+        .city:hover{
+            color:darkgoldenrod
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top" >
+        <div class="w3-bar w3-black w3-card" class="navbar">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+            <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+            <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+                    <a href="#" class="w3-bar-item w3-button">Extras</a>
+                    <a href="#" class="w3-bar-item w3-button">Media</a>
+                </div>
+            </div>
+            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
+                    class="fa fa-search"></i></a>
+                        <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+    </div>
+        </div>
+    
+    
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px;">
+
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+            <img src="https://www.expatica.com/app/uploads/sites/6/2022/02/expats-in-germany.jpg" style="width:100%;height: 650px;">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3 class="slidertitle">Germany</h3>
+                <p><b class="slidertext">The atmosphere in Germany is Our Beauty</b></p>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/101000/101497-Shanghai-Province.jpg" style="width:100%;height: 650px;">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3 class="slidertitle">Shanghai</h3>
+                <p><b class="slidertext"> Shanghai - A night we won't forget. </b></p>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="https://s30876.pcdn.co/wp-content/uploads/United-States-of-America.jpg.optimal.jpg" style="width:100%;height: 650px;">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3 class="slidertitle">America</h3>
+                <p><b class="slidertext"> Thank you, atmosphere in America Great.</b></p>
+            </div>
+        </div>
+
+        <!-- The Band Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px;" id="band">
+            <h2 id="love">THE BAND</h2>
+            <p class="w3-opacity" id="love"><i>We love music</i></p>
+            <p class="w3-justify" id="loveetxt">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <p class="ranatext">Rana:G</p>
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgUFRUYGBgYGBgZGRgYEhIYGBgSGBUZGhgYGBgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMBgYGEAYGEDEdFh0xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMf/AABEIARMAtwMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAABgEFAgMEB//EAD8QAAIBAgMEBwUFBwMFAAAAAAECAAMRBAUhEjFBUQYiYXGBkaETMnKxwQdCUtHhIyRikrLC8BRzohUWM4Lx/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANdXNrGWeCxgYb4t1aV5swtUpAbBUEyvKHD4/WxlxSqhhvgbjMTCQTAgzAiZEzFjAxaaKj2mx2i9n2dpR0PWfgoIv3nkIFrXrKo2mIFpQY/pNTU2S7EcRu84o5hmlSu3WNhwUbh+c4jygNH/AHVfeh8xpK7GdIqjaIdlb3H4pT2mBgWuGz/EIbh9rsbUS7wPSy1g6W521HlFACSCRA9Qy3N0q6I3bbcR4S1BnkmHqlSGU2I3EHjHno9nYqWRzZ+B4N+sBitC0kSYGNoWmUiBFoSbQgLFOrpBnnLSvM3MAZyNQZ04bM2TfOMGSQDAZsLm6txlklZW4xDIK6ibaWaMkB4M1ObSjwGcg6Ey39urC5PCBWZ1mi0KZY6sfdHbPM8TXZ2LsbsxvLTpDjzWqEg9RDYdp5yoJtrx4QIOmnHj+UFPhMLwUwNjXA75g8zJNv0mtoAs6VS4nOi3nZhm2TZrC+48DA5RdT2TuwtSzAg2IsQZtxGFvyvwtuM5KKEHZO8aju4wPTcmxvtqYY+8NG+IcZYRM6M4zZcKdz9U/EPdMc4EyJMIEQkwgJyNM3mmgus21IGOzMCLTNWm1bGByO/CR7O86Hw190PYkQOL2ZBuJsxmNdabC9idL/OdQpyrzr7q8SfnApHFlHp+c5Ga868W+h79kdw3mcUAkyIQNyHSY1F3SaUnEW0twgalNpc4SmHWzD/Ocp1F510i6dZT4cv0gdNW6HZO7gR/m+YpV23W41GhPMbpFTEhlv59h5znwr9ceIgWtG6NyIOnepuPlPRsLWDorj7yg+PGIL079YcwfPfL/o1mACmmxtsm47jAZIWgjA6jWZ2gYWhM7QgLdDB2muvhDLNTMyIFF/pTMlw5lq4mpRA5UpmblozcZkrwNDUbRZzs9fuHqdPzjTUq2F4mZpW1c8TAqMSdF7bnwvNE6seltgfwA+pnLAJ24XK3cXVZnlWXmo6jhv8ADnPRsLg0VVtaw8rWgISdH6t93z+dpb4boiz6swHrGX/rmGQlWqqCpIOjmxG8aCb6Of4YkAVluexx8xATMw6J1U1RQ9uKmx8jF6vTdGKuGVhwYEH9Z7VRAbXQjstOHN8qSqpVlBvxtuPOB4+rWmVJgGB7ZbZl0dqU7lVLWJBA39hHMESlvYwGTAVLoRyLfS0zoVTTcOOB1HNTvnPlRtTF/vNaZndb/OUB7ymuHXaHPd3iWEVeiFY3dDyBHdGm0CYQhAqQsyMwV5uWxgatm81lJ12mDJA4neaXqSczqbCbXEsFUfxHj5XltlmXoQHJueJMCrTCu9hY2Pnb6Tsw/RamGBZFccQ9zrz1ndjszp0kOyC3AKiF2J5WEXaub4+oD7LDbAP3nqUy3gCQB4gwNfTl6KKlFKSbTg9ay3RVI92w0Jv6GJSYUW2gSbb90sswwlVEdq1Kptk322YOoB97VSQL6Suw+K2VZbam1jytA6sDmBpkkICTzJ3DhunRmufPWQUioVSQTZib23DuvY+AlQapJuZAuTYamBZB8KAoKVT1FuVZATUK9YHaBAUNe1t4POb6L4EkhlxC6aG9Fhftst7b+E4XwCobVagVrA7KjbYG+qtY9U213zAYRGF0qrtC5KsGXQXtZjoSRw08YDFkfSD/AEyFFQOl9q22V2Sd/A8pe4LpnRfR0dO0WcX8NfSecgshKsCCN4OksXzNlAsiEEfhO4KFsddOHn2wPTcOUxNymq7JAexBuRpYEX32iX0pyhUwyVQAG9rrwOxUXceZDIPMy96D4u6XBtoLjhcTDpphyaVJb9UVAzciAjkXgK2GFgifhtfvOp+cMRo3h9ZGHfUt2E+J3fSaq7dYDnfyvAvujj7FZe24PiI8G089wVQh071/z1jPWxTCBdqIShTNCJECDMkeYsJCHWB0CpILzW4mFSqFUs24C8DgxpFWsqfdS1/iNifS3rIzDEPUYUKRIUe+wJF+y8qPbtqfvOSfEmNXR/AWUEjU6mB15ThdlQGEtkpIN8r87zBMPSLt3Ko953O5VHOKeUYLE1W269R1BNwge1geduEBxzJqQRiygjZN+NxbdPGKybLFeAJt8PD0jl0iFbDXBZnpPqGOpQ/hbs5Hz7U7E1do38PX9YEJLPDKEpO+hdjsJcX2Ra7uO33QDvG+VtNrWPIjyBuZ1EWJ8fnA5nBvzJ9TxkAEGxFpvxBBAtwBB87gzUaxICncDfdA7XBekSSNqkFtoLtTLAWJvrbTQDid95GBxGwrnZDWQ2BNuq9gfQg+E5i1we6bMG9tongoHqBAbOgKDW+oO1pwHCMPTOhfDMw4FCOxbhD6GUfQV1O2R+JrDsJ0jniaAqUGQjehUjvFoHltFt3me5R+dpAS79w+syw6ELZhZidm3K28efygDYseZC+t/pA3q9q6DtWN9dLiImFqbWIQ/wASz0BYFW2HhLRqUIGDrOYLYzdtzB4Ge1eVGe1bbKbgbse0i1h6y1ScGYIrlAw3OPIg7+w2EDRlOW7RDsNOH5xxXZpJtHQAcr+nGcSlUFzb9JKlq1ifcG4czzgcNLDtXqCtUG49Rd4Rd1/iPOXyUAomyhh9kRezrMcSz+ww9Ig2u1RiNhQSbBeZ0PdpprAssTTSsrobNvUjtnkeaYT2bleF9Pyj/k2RV6TMTWJDEnZttWJOpLNqYn9K0ZK2w1iRrcCwN9xgUyGdCPwP/wBE5ZkHgddPCu5sg2ja9gRe1wOPeIVsA6WLqVBva5GtrX3HtE5trt8xeSX7fIQMnP3RCo1l2eep7hu/zukIOUmvbdx5wGv7Pa4Duh7DPQnxCA+8OsLADUk9wnjeUVmRyV5AeZnouUYcgK7G7tYAcifpApM4wTo7OwAUu+zrqd7XA5C4v2mUWKbYROZLN6WEu+lWKK1XBa+wuwo77E+O8xUxOJLtc7gAPAQOnJResnxj0E9AZrRHyJdlts8Dfw4x2SoGUMNQRcQN9OpCc4hAhb6zJlPYPGQtQ8Jkq3gcxuT9fyEzrYcOhQaE6g8Q41B85vdJrGmkBbfNHZlD/dNiO7feOVDMkspBFiBaJWfUNiptDc+v/sND9D4zmSubAA7tRA9TVtodkhaevISryXMNtB3Dv7Zbqu0NYHLj8fTpgXYXY2UXF2PZETp/gx+zrjexKHt0LA+h85y1sHs49xVsAGYrv1Ut1bXPKR00xwZ0op7qLtH433eS2/mgLNpkqXm/DYV3DMq3VLFjfQX3fKbamX1kQOaZCnjaBxbI7fKZ7AGp2h27MzwzkNotz32lvmNdkporp/5VYi5YWF7AglbNz0MCs9jptBifynPVSx3kzOlWKi2hvwkVFJO6x5awGLoblXtGLsOqN3fPQsHSAu3EWHYOJ+ko+i2CIoWBttDTvjHRpWQjjxgeY9NkK4t77mCuO4rsn1Uymw6jedw9TyjX0+o3qUmA12H2j2Iyn+4xPapw4QLTL8SAtu0+Rlhk2dhAab+6CbHkLxaR7GZqL3MD0nDVlcbSkEcxCee4PMHom6NoeHDyhAf7zIPNG3MlaBuFWTtTVpA9kCvz6ntU9rihv4HQ/TylBSOsa66bSMvMEeYiog1gNGTPbZAjZTOm+JeUuQbxsw1S4gKv2gYCwTED4G8bsh9GHiIi4hyzFibk7yd5POen9OWH+iYHeXS3ftD6Azy9xA24LGvTLbOoYAMp3GxuPEH5x3y7pLQqIEqAAge6w393OefwgOWZ5KKr+0pIEQIzkAjrFAWFgdATa3drOSrk7hDVqEFTbYUWFg66MVGikhCLD8M3/Z5jbYpEfroSAFbrKNrqHQ/GPKWGMxRari8M1v2ROwB+CnUvf+RmgKa0NdBb5275twWFu4v2nyEsjSuLneflymvBW9qPH5QHro/TIpL2CxnetWxIkZYeoO6RiKV2BHj2wEr7QHI9nbc22PDqGJMfOn1K60uxmF+9Qf7Ypp7NOG03+eUCvtMy3CZVyCdPSa4GRMIEQgehgTMCYkyC8DYWmNSqACSbAcTNNR7Ak7gLnuiTmWYvVYkkhfurfS3M9sC0x+fknZp/zH6CQqaykwqbTqO0eQ1+kccrwocwOnKEJG6MuFpkb5y4HA7EtF0EBS+0DFj9lQB1LF27FVSqg9+0f5YjVU6q+c6cZjva4h6pOjMbb9KY0X0A8zNj0wSL7v7VECqhabKtr6TXA2YeqUYMCRYjdyvujBRrqleriVKmm6VSAGW/tKqHqFb3FnPLcLxbkosBiw+JDLMabWqDx+U5KNIIgO11ifdB4TZRq7TKRz+kD0nJHugEsnEWsgxWgEYw9xAUuntMnD7Q+46HwN0/uE89V7DtPoJ65n2D9rQenxZSB2NvU+YE8gIINiLEaEHeCN4MDKmt5uanZtk8Bfx5TLBkDrHhczneoSSeZvA3Yk2NhwhOdjeED0fZgVmwGECtzo7NFz/CR5xFjf0rrWpBfxMPIa/lFCB35QnWZuQ9Sf0Mcuj/AL0VspTqX/E3oNPzjhkVLdAZwJXZ/iDTw9VhvCNb4iLL6kSzQRc6eNbCOObIP+an6QPMRpNvtz5CwmqEAMIQgE30QOIuTuH1mkTdTqbGvGAVWKm3Hj2DlMaFXYYHz7pht63Ot+ciA7ZLVJ1XXjvjjgapIFxPKsozNqTDS45XnoOV5or2IJHZAYKlO4M886XdHGUtiKYuN7qN45uPr5z0GlVmTgMLEQPDdrS0xlx0kyc4aobDqMxKHgOOwe0fLxlOIEgQhCB6WZr2pG1MGqQFvpbUu6LyUnzP6Relv0le9buVfrK/BptOo7bnuGsC+wdKyqvIC/fx9Y4ZQmgixg1uY35UlhAtqcWftAP7sfjT+qM9OK/2gn9273T53+kDzSEIQCEIQJBkXhCAQEIQN1BNpgo0ufGMeWVwj7AOnDWLdGsU1Xf8p0JW2GGpve7HmTA9UwNW4ndSfhFnIsZtKNdYwI3GBzZ1lyVUZHFww8QeBHaJ5VmWBeg7U33jceDKdzCe022hFnpRkgrpYWDrcoe3ipPI/lA8xhM3QqSCCCNCDvB4gwgeg7EwZJtvIMBKz5wazW4WHiBIyqnqzctPPU/ISc+pBa7242bxI1nZl9LZQdup8f0tAt8uTWOOXroIr5dT3RswY0EDsEUvtDb93H+4n9LRtib9orfsUHOqPRHgeewhCAQhCAQhCAQhCAAzZVa5vNYhAZOj2NtYE9hj3hK1xPKMDW2XHbHzJ8ZcCA2UHmWIp3E4qVSd9F7iAhdL8gZj7akt20DqN7cAR2j5d0I716N4QFv2MhktMvbSqzzOPZKAou7XtfcB+IwFvM028S6n8Qv8IUX9JZ0RrKvAMXZ3Y3Y7zzJ1P0lxhl1gXmATdGbC7ov5cuojHhxaBtMSftGP7Ol8Z/oMd23RG+0b3KX+439BgIohASIBCEIBCEIBCEIBCEIBGHJMZa1z2GL034Orst3/ADgen4OvcS1oPpFDKcXcCMeGq6QLZTcQmmm0IHlWK6Qu2iKEHP3m9dBKepUZjtMSxPEkkzZicM1NthxY8ORHMGaYFplw6niZc4NZS5cer4y+wYgMGVrrGBDKPLU4y7pmBsqRF+0VurRXiWc+QUfWPNTdPN+n+JDV0QfcS5+J2vbyVfOAqiRJMBAiEIQCEIQCEIQCEIQCEIQL3KMXa3rHLA1rgTzjB1Nlu/5xyynFXFoDbSeTOPDVdIQEnpJX2UVB98m/wrb62izLvpO3XT4T6kflKSB35a28RjwS7oq4J7NG/KdbQGbApYSwpzhw+6TjMxp0U26jhR6k8gOJgdGY4xKVNqjmyqLnt5AdpOk8gx+Kaq71W3uxYjlwA8AAPCW/SXpA2JYKoK01Nwp3s34m+glDAhoQaRABCAkwASJIkQCEIQCEIQCEIQAGXuVYqxEopuw1XZMD0bB17iEpcqxlxa8IFL0kbrp8HzY/lKeMfSHDbSBxvQ/8T+touQMkaxvG3KsUiqGZgB2mKELwHPHdMFQbNJdo/ia4Xy3mKmNxj1XL1GLH0A5KOAnPCBkDCYwgSZEm8iACEIQJEiTIgEIQgEBCSIEQhAwCEIQO3BYoqYTihAc64ujg/hPyiWIQgTCEIBCEIBJhCBEIQgEIQgZTGEIBCEIBJEIQIhCEAhCEAhCED//Z"
+                        class="w3-round w3-margin-bottom" alt="Random Name" style="width:65%;height: 155px;">
+                </div>
+                <div class="w3-third">
+                    <p class="ranatext">Rana:G</p>
+                    <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="w3-round w3-margin-bottom"
+                        alt="Random Name" style="width:60%">
+                </div>
+                <div class="w3-third">
+                    <p class="ranatext">Rana:G</p>
+                    <img src="https://media.istockphoto.com/photos/man-with-a-camera-black-and-white-photography-picture-id901626048?k=20&m=901626048&s=170667a&w=0&h=CPC1-7UGMO1C881NfmtOmiC5qhnulz2gFHoLS36CJhw="
+                        class="w3-round" alt="Random Name" style="width:60%">
+                </div>
+            </div>
+        </div>
+
+        <!-- The Tour Section -->
+        <div class="w3-black" id="tour"  style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/070/892/small/abstract-banner-design-template-black-glossy-with-gold-line-and-lighting-effect-on-dark-background-and-texture-vector.jpg');background-repeat: no-repeat;background-size: 100% 100%;">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center" id="tour">TOUR DATES</h2>
+                <p class="w3-opacity w3-center" id="remember"><i>Remember to book your tickets!</i></p><br>
+
+                <ul class="w3-ul w3-border w3-white w3-text-grey">
+                    <li class="w3-padding" id="month">October<span class="w3-tag w3-green w3-margin-left" id="sold">Sold out</span></li>
+                    <li class="w3-padding" id="month">january<span class="w3-tag w3-green w3-margin-left" id="sold">Sold out</span></li>
+                    <li class="w3-padding" id="month">April <span class="w3-badge w3-right w3-margin-right" id="sold">3</span></li>
+                </ul>
+
+                <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="https://cdn.internationalliving.com/wp-content/uploads/2020/02/Germany-1.jpg"
+                            alt="Germany" style="width:100%;height: 165px;" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b class="city">Germany</b></p>
+                            <p class="w3-opacity">Friday: 29 October 2022</p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Buy
+                                Tickets</button>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQ-Kr35ZnOY1h-xaHeCziDK3-8HuXgIIsB-buK0-BWJx_ci8VzEZY-Ni-rdPtNmtjFO"
+                            alt="Shanghai" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b class="city">Shanghai</b></p>
+                            <p class="w3-opacity">Wednesday: 28 January 2022</p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Buy
+                                Tickets</button>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="https://a.cdn-hotels.com/gdcs/production124/d1511/631059b0-e42c-11e8-a0e4-0242ac110002.jpg?impolicy=fcrop&w=800&h=533&q=medium" alt="America" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b class="city">America</b></p>
+                            <p class="w3-opacity"> Thursday: April 21, 2022</p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Buy
+                                Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ticket Modal -->
+        <div id="ticketModal" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+                <header class="w3-container w3-teal w3-center w3-padding-32">
+                    <span onclick="document.getElementById('ticketModal').style.display='none'"
+                        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+                    <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+                </header>
+                <div class="w3-container">
+                    <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+                    <input class="w3-input w3-border" type="text" placeholder="How many?">
+                    <p><label><i class="fa fa-user"></i> Send To</label></p>
+                    <input class="w3-input w3-border" type="text" placeholder="Enter email">
+                    <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i
+                            class="fa fa-check"></i></button>
+                    <button class="w3-button w3-red w3-section"
+                        onclick="document.getElementById('ticketModal').style.display='none'">Close <i
+                            class="fa fa-remove"></i></button>
+                    <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Contact Section -->
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+            <h2 class="w3-wide w3-center">CONTACT</h2>
+            <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-col m6 w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+                    <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+                    <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+                </div>
+                <div class="w3-col m6">
+                    <form action="./form.html" target="_blank">
+                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                            </div>
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                            </div>
+                        </div>
+                        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                        <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Page Content -->
+    </div>
+
+    <!-- Image of location/map -->
+    <img src="https://www.w3schools.com/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+        </p>
+    </footer>
+
+    <script>
+        // Automatic Slideshow - change image every 4 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4000);
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        var modal = document.getElementById('ticketModal');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
